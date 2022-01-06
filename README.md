@@ -1,35 +1,152 @@
 # Big and Open Worlds
 
-There are so many worlds to explore, and so many ways to explore them. This repository presents a hand-picked collection of datasets and environments that provide a starting point for training and evaluating anthropocentrically "general" artificial intelligence models.
+There are so many worlds to explore, and so many ways to explore them! This repository presents managed `gym.Env` interfaces for a hand-picked collection of environments as well as a suite of `hub.Dataset`'s that provide a starting point for training and evaluating anthropocentrically "general" artificial intelligence models. I.E.: you don't have to manually launch auxillary processes or provision `gcloud` or `docker` instances.
+
+## Getting Started
+
+Depending on your use case, run one the following commands:
+```bash
+$ pip install big-and-open-worlds  # no docker or gcloud support
+$ pip install big-and-open-worlds[docker]  # docker support
+$ pip install big-and-open-worlds[gcloud]  # gcloud support
+$ pip install big-and-open-worlds[gcloud,docker]  # both docker and gcloud support
+```
 
 ## Datasets
 
+All datasets are provided as `hub.Dataset`'s. Some have been pre-pipelined for convenience. Get started with an dataset by importing it from the `datasets` submodule. Big and Open Worlds provides the following datasets:
+
+### < Dataset >
+< Description >
+< Samples >
+< data/tensor_spec >
+< other details >
+```python
+< usage example >
+```
+
+### < Dataset >
+< Description >
+< Samples >
+< data/tensor_spec >
+< other details >
+```python
+< usage example >
+```
 
 ## Environments
 
-All environments are wrapped in [OpenAI Gym](https://gym.openai.com/) `Environment` objects. Environment wrappers provide defaults to manage their own backend processes if necessary. Get started with an environment by importing it from the `environments` module.
+All environments are wrapped in [OpenAI Gym](https://gym.openai.com/) `Environment` objects. Environment wrappers provide defaults to manage their own backend processes if necessary. Get started with an environment by importing it from the `environments` sunmodule. Big and Open Worlds provides the following environments:
 
 ### TODO: Add environments
 
+< Description >
+< Samples >
+< obs/act_spec >
+< other details >
+```python
+< usage example >
+```
+
 ### VNCEnv
+
+< Description >
+< Samples >
+< obs/act_spec >
+< other details >
+```python
+< usage example >
+```
 
 ### Anymal and IsaacGym2
 
+< Description >
+< Samples >
+< obs/act_spec >
+< other details >
+```python
+< usage example >
+```
+
 ### bsuite
+
+< Description >
+< Samples >
+< obs/act_spec >
+< other details >
+```python
+< usage example >
+```
 
 ### control_suite
 
+< Description >
+< Samples >
+< obs/act_spec >
+< other details >
+```python
+< usage example >
+```
+
 ### distraction_suite
+
+< Description >
+< Samples >
+< obs/act_spec >
+< other details >
+```python
+< usage example >
+```
 
 ### psych_suite (?)
 
+< Description >
+< Samples >
+< obs/act_spec >
+< other details >
+```python
+< usage example >
+```
+
 ### Crafter
 
-### MALMO
+< Description >
+< Samples >
+< obs/act_spec >
+< other details >
+```python
+< usage example >
+```
+
+### MALMO (or maybe just MineRL)
+
+< Description >
+< Samples >
+< obs/act_spec >
+< other details >
+```python
+< usage example >
+```
 
 ### NeuralMMO
 
+< Description >
+< Samples >
+< obs/act_spec >
+< other details >
+```python
+< usage example >
+```
+
 ### BEHAVIOR
+
+< Description >
+< Samples >
+< obs/act_spec >
+< other details >
+```python
+< usage example >
+```
 
 ### NetHack
 
@@ -44,3 +161,8 @@ All environments are wrapped in [OpenAI Gym](https://gym.openai.com/) `Environme
 > ![Example of an agent running on NLE](https://github.com/facebookresearch/nle/raw/main/dat/nle/example_run.gif)
 > ([https://github.com/facebookresearch/nle](https://github.com/facebookresearch/nle))
 
+< obs/act_spec >
+< other details >
+```python
+< usage example >
+```
