@@ -1,5 +1,9 @@
 # Big and Open Worlds
 
+:construction: **This repository is under construction.** :construction: Stable release coming this Summer 2022.
+
+Want to contribute? Check out the GitHub container repository [Limboid/the-artificial-ecosystem](https://github.com/Limboid/the-artificial-ecosystem) for this project.
+
 There are so many worlds to explore, and so many ways to explore them! This repository presents managed `gym.Env` interfaces for a hand-picked collection of environments as well as a suite of `hub.Dataset`'s that provide a starting point for training and evaluating anthropocentrically "general" artificial intelligence models. I.E.: you don't have to manually launch auxillary processes or provision `gcloud` or `docker` instances.
 
 ## Getting Started
